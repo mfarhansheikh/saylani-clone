@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: poppins regular;
+    src: url(Poppins/Poppins-Regular.ttf);
+}
+:root {
+    --blue: #0d6db7;
+    --white: #ffffff;
+    --green: #8dc63f;
+    --grey: #eeeeee;
+  }
+  .bg-white{
+    background-color: var(--white);
+  }
+  .bg-blue{
+    background-color: var(--blue);
+  }
+  .bg-green{
+    background-color: var(--green);
+  }
+  .bg-grey{
+    background-color: var(--grey);
+  }
+  .color-white{
+    color: var(--white);
+  }
+  .color-green{
+    color: var(--green);
+  }
+  .color-blue{
+    color: var(--blue);
+  }
+  .color-grey{
+    color: var(--grey);
+  }
+  .d-flex{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .s-between{
+    justify-content: space-between;
+  }
+  .s-around{
+    justify-content: space-around;
+  }
+  .s-evenly{
+    justify-content: space-evenly;
+    
+  }
+  .f-end{
+    justify-content: end;
+  }
+  .f-start{
+    justify-content: start;
+  }
+  .items-center{
+    align-items: center;
+  }
+  .items-start{
+    align-items: flex-start;
+  }
+  .items-end{
+    align-items: flex-end;
+  }
+  .text-center{
+    text-align: center;
+  }
+  .font-16{
+    font-size: 16px;
+  }
+  .font-18px{
+    font-size: 18px;
+  }
+  .font-32px{
+    font-size: 32px;
+  }
+
+  .font{
+    font-size: 42px;
+  }
+  .mt-20px{
+    margin-top: 20px;
+  }
+  .mt-40{
+    margin-top: 40px;
+  }
+  .mt-70px{
+    margin-top: 70px;
+  }
+  
