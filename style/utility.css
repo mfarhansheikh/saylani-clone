@@ -3,10 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-@font-face {
-    font-family: poppins regular;
-    src: url(Poppins/Poppins-Regular.ttf);
-}
+
 :root {
     --blue: #0d6db7;
     --white: #ffffff;
@@ -35,7 +32,10 @@
     color: var(--blue);
   }
   .color-grey{
-    color: var(--grey);
+    color: #666666;
+  }
+  .color-black{
+    color: black;
   }
   .d-flex{
     display: flex;
@@ -91,4 +91,20 @@
   .mt-70px{
     margin-top: 70px;
   }
+  .p-10px{
+    padding: 10px 10px;
+  }
+  .p-20px{
+    padding: 20px 20px;
+  }
+  .p-LR{
+    padding: 0px 20px;
+  }
+    .text-decor-none{
+    text-decoration: none;
+  }
+  .gap-10{
+    gap: 10px;
+  }
+  
   

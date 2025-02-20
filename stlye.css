@@ -1,0 +1,130 @@
+@font-face {
+    font-family: poppins regular;
+    src: url(Poppins-Regular.ttf);
+}
+.top-para{
+    font-family: poppins regular;
+    font-size: 16px;
+    font-weight: normal;
+    color: #666666;
+}
+.topbar-button{
+
+    border: 1px solid black;
+    background-color: white;
+    padding: 10px 20px;
+    color: black;
+    
+}
+.nav-anchor{
+    padding: 0px 10px;
+    font-family: poppins regular;
+}
+.nav-button{
+    border-radius: 10px;
+    padding: 15px 30px;
+    border: none;
+    font-family: poppins regualr;
+    font-size: 16px;
+    margin: 0 5px;
+}
+.nav-button:hover{
+    scale: calc(1.17);
+}
+#icon{
+    color:#666666;
+    border: 1px solid white;
+    background-color:whitesmoke;
+    padding: 5px 5px;
+    font-size: 2.5rem;
+}
+.menu-icon{
+    display: none;
+}
+.welcome-heading{
+    font-family: poppins regular;
+}
+.welcome-heading-2{
+    font-family: poppins regular;
+}
+.explorer-button{
+    border: 1px solid black;
+    background-color: white;
+    color:black;
+    padding: 10px 30px;
+    margin-top: 10px;
+}
+.donate-coontainer{
+    background-color: #f0fcda;
+    font-family: poppins regular;
+    margin-top: 40px;
+}
+.donate-child{
+    padding-top: 30px;
+}
+.quick-donate-button{
+    padding: 15px 30px;
+    background-color: #ffffff;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-family: poppins regular;
+    font-weight: bold;
+
+
+}
+.input-zero{
+    padding: 15px 30px;
+}
+
+
+
+
+@media( max-width: 1200px) {
+    .nav-item{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+    }
+}
+@media( max-width:600px) {
+    .topbar{
+        display: none;
+    }
+}
+@media(max-width: 1280px) {
+    .image-1{
+        width: 430px;
+    }
+    .welcome-heading{
+        font-size: 36px;
+    
+    }
+    
+}
+@media(max-width: 1024px) {
+    .image-1{
+        width: 400px;
+    }
+    .welcome-heading{
+        font-size: 32px;
+    }
+    .welcome-heading-2{
+        font-size: 28px;
+    }
+}
+@media(max-width: 768px) {
+    .image-1{
+        display:none ;
+    }
+}
+@media(max-width: 640px) {
+    .image-1{
+        display: none;
+    }
+}
+@media(max-width: 540px) {
+    .image-1{
+        display: none;
+    }
+}
